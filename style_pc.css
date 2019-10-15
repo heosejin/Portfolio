@@ -3,42 +3,41 @@ html {
   font-size: 100%;
   height: 100%;
   width: 100%;
-  background-image: url('bg.png');
-  background-size: cover;
-  background-attachment: fixed;
-  overflow:auto;
-  -webkit-overflow-scrolling: touch;
+  color: #fff;
 }
 
 body {
   margin: 0;
   display: block;
+  background-color: #131518;
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 /* header */
 header {
   position: fixed;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 15px;
   z-index: 800;
-  top: 10%;
+  top: 8%;
 }
 
 #logo {
   position: fixed;
-  font-size: 24px;
+  font-size: 25px;
   letter-spacing: 2px;
-  left: 8%;
+  left: 6%;
 }
 
 nav {
   position: fixed;
-  right: 8%;
+  right: 6%;
 }
 
 nav ul {
@@ -56,24 +55,24 @@ nav li:first-child {
 
 nav .menu {
   opacity: 0.3;
-  color: #000;
+  color: #fff;
 }
 
 nav .menu:hover {
   opacity: 1;
   transition: all 0.8s;
-  color: #000;
+  color: #fff;
 }
 
 /* section == contact */
 #contact {
   position: fixed;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   font-style: italic;
   z-index: 800;
   top: 50%;
-  left: 8%;
+  left: 6%;
   transform: translateX(-50%) rotate(-90deg);
   -webkit-transform: translateX(-50%) rotate(-90deg);
   -ms-transform: translateX(-50%) rotate(-90deg);
@@ -86,15 +85,14 @@ nav .menu:hover {
   display: block;
   right: 0;
   background: none;
-
-  transition: width .1s ease;
-  -webkit-transition: width .1s ease;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
 }
 
 .c_hover:hover:after {
   width: 100%;
   left: 0;
-  background: #000;
+  background: #fff;
 }
 
 /* section == contents */
@@ -107,13 +105,14 @@ nav .menu:hover {
 #about {
   position: relative;
   max-width: 60%;
-  margin: 24vh auto 0 auto;
+  margin: 30vh auto 0 auto;
   font-weight: 300;
   font-style: italic;
 }
 
 .about_title {
   margin: 0 0 6vw 0;
+  position: fixed;
 }
 
 .ti01 {
@@ -136,7 +135,7 @@ nav .menu:hover {
 .bu::after {
   display: inline-block;
 	content: "";
-	background: #000;
+	background: #fff;
   width: 4vw;
 	height: 2px;
 	font-size: 0px;
@@ -146,6 +145,7 @@ nav .menu:hover {
 
 .about_content {
   float: right;
+  width: 50%;
   font-size: 1.4vw;
   line-height: 150%;
   margin: 0 0 24vh 0;
@@ -193,7 +193,7 @@ nav .menu:hover {
 .hover:hover:after {
   width: 100%;
   left: 0;
-  background: #000;
+  background: #fff;
 }
 
 /* footer */
