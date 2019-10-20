@@ -27,4 +27,15 @@ a, a:visited, a:hover, a:focus, a:active, a:link {
 header {
   position: fixed;
   top: 6%;
+  font-weight: 800;
+}
+
+#logo {
+  left: 8%;
+  font-size: 35px;
+}
+
+#menu {
+  right: 8%;
+  font-size: 15px;
 }
