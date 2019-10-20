@@ -15,8 +15,8 @@ html {
 }
 
 body {
+  background-image: url(bg.png);
   display: block;
-  margin: 0 auto;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
@@ -36,11 +36,63 @@ header {
   position: fixed;
   left: 8%;
   letter-spacing: 2px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #menu {
   position: fixed;
   right: 8%;
   font-size: 15px;
+}
+
+/* contents */
+#contents {
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 300px;
+}
+
+#main_project {
+  position: relative;
+  padding-top: 200px;
+}
+
+.project_no span, .main_project_ti {
+  float: right;
+  padding-right: 30px;
+}
+
+#main_img {
+  padding-top: 150px;
+}
+
+.main_project_cate {
+  padding-bottom: 30px;
+}
+.main_project_ti {
+  font-size: 90px;
+  font-weight: 700;
+  z-index: 2;
+  margin-top: -55px;
+}
+
+.main_project_img {
+  background-color: #aaa;
+  height: 400px;
+}
+
+
+/* footer */
+footer {
+  position: fixed;
+  bottom: 6%;
+}
+
+#name {
+  position: fixed;
+  right: 8%;
+  font-size: 10px;
+  opacity: 0.5;
 }
