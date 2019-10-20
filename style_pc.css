@@ -16,6 +16,7 @@ html {
 
 body {
   display: block;
+  margin: 0 auto;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
