@@ -31,11 +31,14 @@ header {
 }
 
 #logo {
+  position: fixed;
   left: 8%;
+  letter-spacing: 2px;
   font-size: 35px;
 }
 
 #menu {
+  position: fixed;
   right: 8%;
   font-size: 15px;
 }
