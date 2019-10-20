@@ -15,7 +15,7 @@ html {
 }
 
 body {
-
+  display: block;
 }
 
 a, a:visited, a:hover, a:focus, a:active, a:link {
@@ -28,6 +28,7 @@ header {
   position: fixed;
   top: 6%;
   font-weight: 800;
+  z-index: 800;
 }
 
 #logo {
